@@ -1,88 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- favicon  -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-
-    <title>MS portfolio</title>
-
-
-    <!-- font awesome cdn link  -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-
-    <!-- custom css file link  -->
-
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Jquary google CDN file link  -->
-
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
-
-
-</head>
-
-<body>
-
-    <!-- theme-toggler button  -->
-    <div onclick="chngimg()">
-        <div id="theme-toggler" class="fas fa-moon"></div>
-    </div>
-
-    <!-- header section starts  -->
-
-
-
-    <header>
-
-
-
-        <div class="user">
-
-            <img src="images/profilePic.jpg" alt="">
-
-            <h3 class="name">mohd Shariq</h3>
-
-            <p class="post">frontend developer</p>
-
-        </div>
-
-
-
-        <nav class="navbar">
-
-            <ul>
-
-                <li><a href="#home">home</a></li>
-
-                <li><a href="#about">about</a></li>
-
-                <li><a href="#education">education</a></li>
-
-                <li><a href="#portfolio">portfolio</a></li>
-
-                <li><a href="#contact">contact</a></li>
-
-            </ul>
-
-        </nav>
-
-
-
-    </header>
-
-
-
-    <!-- header section ends -->
-
+<?php include('header.php'); ?>
 
 
     <div id="menu" class="fas fa-bars"></div>
@@ -596,34 +512,7 @@
     <!-- contact section ends -->
 
 
+    <?php include('footer.php'); ?>
 
 
 
-    <!-- scroll top button  -->
-
-
-
-    <a href="#home" class="top">
-
-        <!-- <img id="img" src="images/boostIcon.png" alt="boostIcon"> -->
-        <!-- <img class="img" src="images/rocketIcon.png" alt="boostIcon"> -->
-        <img id="imgplus" alt="" src="Images/boostIcon.png" onmouseover="this.style.cursor='pointer'" />
-
-    </a>
-
-    <!-- jquery cdn link  -->
-
-
-    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- custom js file link  -->
-
-
-    <!-- <script language="jquery" type="text/jquery" src="jquery.counterup.min.js"></script> -->
-    <script src="js/jscript.js" type="text/javascript"></script>
-    <script language="javascript" src="script.js" type="text/javascript"></script>
-
-</body>
-
-</html>
